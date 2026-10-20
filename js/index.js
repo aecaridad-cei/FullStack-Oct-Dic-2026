@@ -1,13 +1,13 @@
-const smartphone = {
-  model: "Samsung S23",
-  user: "Angel",
-  inbox: []
+let age = 19
+let haveTicket = true
+
+if(haveTicket === false){
+  console.log("Debes comprar una entrada primero")
+} else if (haveTicket === true && age >= 18){
+  console.log("¡Bienvenido al cine!")
+} else if (haveTicket === false && age < 17) {
+ console.log ("Tienes la edad necesaria pero necesitas comprar la entrada primero") 
 }
-
-smartphone.inbox.push("BBVA pago con tarjeta aceptado", "Fitness Park: Hemos renovado tu membresia exitosamente", "Spotify: Nuevas canciones de esta semana")
-smartphone.inbox.shift("BBVA pago con tarjeta aceptado")
-
-let totalPending = smartphone.inbox.length
-console.log(Object.keys(smartphone))
-console.log("A " + smartphone.user + " " + "le quedan " + totalPending + " notificaciones")
-console.log(smartphone)
+else {
+  console.log("Acceso denegado, eres menor de edad")
+}
