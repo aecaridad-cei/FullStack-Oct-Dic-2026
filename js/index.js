@@ -39,16 +39,17 @@ else {
 
 
 // 1. Saludo inicial al cliente (Sin parámetros)
-//function darBienvenida() {
+// function darBienvenida() {
 //  return "¡Bienvenido a la Tienda de Mascotas!";
-//}
+// }
 
 const darBienvenida = () => "¡Bienvenido a la Tienda de Mascotas!"
 console.log(darBienvenida())
+
 // 2. Calcular el precio total con IVA (Dos parámetros)
-//function calcularTotal(precio, cantidad) {
+// function calcularTotal(precio, cantidad) {
 //  return precio * cantidad * 1.21;
-//}
+// }
 
 const calcularTotal = (precio, cantidad) => precio * cantidad * 1.21
 console.log(calcularTotal(20,5))
