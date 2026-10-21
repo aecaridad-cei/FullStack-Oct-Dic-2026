@@ -20,5 +20,5 @@ console.log(stillAlive(0));  // false
 
 // 5. Sistema de Rangos (Múltiples líneas con if / else)
 
-const assignRank = (level) => level < 10 ? "Novato" : level <= 49 ? "Aventurero" :"Leyenda";
+const assignRank = (level) => level < 10 ? "Novato" : level <= 49 ? "Aventurero" : "Leyenda";
 console.log(assignRank(25))
