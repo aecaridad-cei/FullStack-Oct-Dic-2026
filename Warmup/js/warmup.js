@@ -74,3 +74,22 @@ console.log(nombrarMascota("Hamster"))
 const calcularDescuento = (precio, esSocio) => esSocio ? precio * 0.8 : precio
 console.log(calcularDescuento(10, true))
 console.log(calcularDescuento(10, false))
+
+// Warmup 22/10/2026
+
+const student = {
+  name: "Maria", age: 20, califications: [8,9,7,8], active: true
+}
+console.log(student.name)
+console.log(student.califications[0])
+student.califications.push(10)
+student.active = false
+console.log(student)
+
+const fruits = ["apple", "grape", "watermelon", "banana", "eggplant"]
+fruits.push("lemon")
+console.log(fruits)
+fruits.pop()
+console.log(fruits)
+fruits.shift()
+console.log(fruits)
